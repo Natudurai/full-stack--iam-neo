@@ -1,0 +1,147 @@
+
+
+.login-container {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #f0f0f0, #ffffff);
+  
+
+  box-shadow: 0 6px 12px rgba(250, 247, 247, 0.1);
+  
+}
+.login-container {
+  background-image: url('gympic5.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif; 
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+.login-container h2{
+  padding-top: 2%;
+  color: white;
+  
+  font-size: 50px;
+  
+}
+
+.login-form {
+  max-width: 400px;
+  display: flex;
+  margin-left: 38%;
+  margin-top: 5%;
+  padding-top: 20px;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.log-con{
+  margin-top: 20px;
+  padding-top: 25px;
+}
+.login-form:hover {
+  transform: translateY(-5px);
+}
+
+.login-form h2 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.login-form select,
+.login-form input {
+  padding-top: 20px;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-form select:focus,
+.login-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.login-form button {
+  background: #038212;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size:10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.login-form button:hover {
+  background: #06b246;
+}
+
+.login-form button:active {
+  transform: scale(0.98);
+}
+
+.signup-link,
+.forgot-password-link {
+  margin-top: 1.5rem;
+}
+
+.signup-link p,
+.forgot-password-link p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.forgot-password-link button {
+  background: #e74c3c;
+  color: rgb(200, 4, 4);
+  border: none;
+  padding: 0.4rem 1rem; /* Reduced padding */
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8rem; /* Reduced font size */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.forgot-password-link button:hover {
+  background: #c0392b;
+}
+
+.forgot-password-link button:active {
+  transform: scale(0.98);
+}
+
+
+
+
+.login-container {
+  
+}
+
+.login-error {
+  color: #e74c3c;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
